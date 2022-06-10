@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --clr: #222327;
+    --open: #eef3f8;
+    --themeBlue: #49BEDE;
+    --whitesmoke: #F5F5F5;
+}
+
+body {
+    background-color: var(--whitesmoke);
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    color: var(--themeBlue);
+}
+
+
+#ul-head {
+    display: flex;
+    align-items: center;
+}
+
+#log-in-btn ion-icon {
+    margin-right: 10px;
+}
+
+#log-in-btn {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.jumbotron {
+    width: 80%;
+    margin: auto;
+    background-color: var(--whitesmoke);
+}
+
+#cardDiv {
+    width: 80%;
+    margin: auto;
+}
+

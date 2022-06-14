@@ -2,9 +2,10 @@
 
 @media screen and (max-width: 600px) { 
 
-    .col-xl-4 img { display: none; }  
+    .col-xl-4 img { display: none; } 
+    .display-4 { font-size: 2.5rem; }
     
-    }
+}
 
 * {
     margin: 0;

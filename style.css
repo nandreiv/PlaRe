@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 :root {
@@ -12,6 +12,8 @@
     --open: #eef3f8;
     --themeBlue: #49BEDE;
     --whitesmoke: #F5F5F5;
+    --lightblue: #5ccee9;
+    --mediumblue: #73beff;
 }
 
 body {
@@ -20,6 +22,7 @@ body {
 
 header {
     width: 100%;
+    background-color: #fff;
 }
 
 nav {
@@ -28,12 +31,18 @@ nav {
     margin: auto;
 }
 
+.navbar-brand  img {
+    width: 60px;
+    height: 60px;
+}
+
 nav a {
-    color: #fff;
+    color: var(--lightblue);
+    font-weight: 600;
 }
 
 nav a:hover {
-    color: var(--themeBlue);
+    color: var(--mediumblue);
 }
 
 
@@ -46,18 +55,55 @@ nav a:hover {
     margin-right: 10px;
 }
 
+.bluebtn {
+    background: rgb(115,190,255);
+    background: linear-gradient(90deg, rgba(115,190,255,1) 0%, rgba(92,206,233,1) 100%);
+    color: #fff;
+}
+
 #log-in-btn {
     display: flex;
     align-items: center;
     height: 30px;
     margin-left: 20px;
     font-size: 0.75em;
+    font-weight: 600;
 }
 
 .jumbotron {
     width: 80%;
-    margin: auto;
+    margin: 10 0 10 0;
+    padding: 10 0 10 0;
     background-color: var(--whitesmoke);
+}
+
+.jumbotron h1 {
+    font-weight: 500;
+}
+
+.my-4 {
+    background-color: var(--clr);
+}
+
+.jumbotron .lead {
+    font-weight: 400;
+}
+
+#jumbo-div {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#jumbo-div img {
+    max-width: 75%;
+    margin: auto;
+}
+
+#info-card-title {
+    font-weight: 500;
 }
 
 #cardDiv {

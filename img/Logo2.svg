@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200"
+   height="200"
+   viewBox="0 0 52.916665 52.916666"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="Logo2.svg"
+   inkscape:export-filename="Logo2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.1"
+     inkscape:cx="100.16393"
+     inkscape:cy="100"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-32000"
+     inkscape:window-y="-32000"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3">
+    <inkscape:grid
+       type="xygrid"
+       id="grid11395" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="20.655738"
+       y="32.131148"
+       width="148.19672"
+       height="121.14754"
+       id="rect440" />
+    <rect
+       x="2.7868852"
+       y="53.934426"
+       width="195.2453"
+       height="186.79308"
+       id="rect11391" />
+    <rect
+       x="35.57377"
+       y="79.016393"
+       width="141.96721"
+       height="31.147541"
+       id="rect11283" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect11226"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,2.6458333,0,1 @ F,0,0,1,0,2.6458333,0,1 @ F,0,0,1,0,2.6458333,0,1 @ F,0,0,1,0,2.6458333,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="10"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient293">
+      <stop
+         style="stop-color:#73beff;stop-opacity:1;"
+         offset="0"
+         id="stop289" />
+      <stop
+         style="stop-color:#5ccee9;stop-opacity:1;"
+         offset="1"
+         id="stop291" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient293"
+       id="linearGradient295"
+       x1="0.043374445"
+       y1="17.262978"
+       x2="53.003414"
+       y2="17.089481"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="fill:none" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Box">
+    <rect
+       style="fill:url(#linearGradient295);stroke-width:0.27839;fill-opacity:1"
+       id="rect69"
+       width="52.916668"
+       height="52.916668"
+       x="-1.3877788e-17"
+       y="0"
+       ry="0"
+       inkscape:path-effect="#path-effect11226"
+       d="M 2.6458333,0 H 50.270835 a 2.6458333,2.6458333 45 0 1 2.645833,2.6458333 V 50.270835 a 2.6458333,2.6458333 135 0 1 -2.645833,2.645833 H 2.6458333 A 2.6458333,2.6458333 45 0 1 0,50.270835 V 2.6458333 A 2.6458333,2.6458333 135 0 1 2.6458333,0 Z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Text">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.45645562,0,0,0.43585742,-19.374005,-14.374843)"
+       id="text11389"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0.6;font-family:Towards;-inkscape-font-specification:Towards;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect11391);shape-padding:0.158261;display:inline;fill:#ffffff"
+       x="70.195312"
+       y="0"><tspan
+         x="53.345939"
+         y="102.93197"
+         id="tspan5591"><tspan
+           style="font-weight:bold;font-size:84.5487px;font-family:'Neon 80s';-inkscape-font-specification:'Neon 80s Bold'"
+           id="tspan5587">Re</tspan><tspan
+           style="font-weight:bold;font-family:'Neon 80s';-inkscape-font-specification:'Neon 80s Bold'"
+           id="tspan5589">
+</tspan></tspan><tspan
+         x="57.917171"
+         y="133.3096"
+         id="tspan5595"><tspan
+           style="font-weight:bold;font-size:32.5322px;font-family:'Neon 80s';-inkscape-font-specification:'Neon 80s Bold'"
+           id="tspan5593">Grow</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text438"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:85.3333px;font-family:Towards;-inkscape-font-specification:'Towards Bold';text-align:center;white-space:pre;shape-inside:url(#rect440);display:inline;fill:#ffffff" />
+  </g>
+</svg>

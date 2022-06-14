@@ -1,0 +1,2 @@
+--lightblue: #5ccee9
+--mediumblue: #73beff

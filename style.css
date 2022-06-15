@@ -3,7 +3,7 @@
 @media screen and (max-width: 600px) { 
 
     .col-xl-4 img { display: none; } 
-    .display-4 { font-size: 2.5rem; }    
+    .display-4 { font-size: 2.5rem; }
 }
 
 * {
@@ -26,15 +26,20 @@ body {
     background-color: var(--whitesmoke);
 }
 
-header {
-    width: 100%;
+.navbar {
     background-color: #fff;
+    width: 100%;
 }
 
 nav {
     display: flex;
     width: 80%;
     margin: auto;
+}
+
+.navbar-toggler {
+    color: var(--mediumblue);
+    background-color: var(--mediumblue);
 }
 
 
@@ -71,9 +76,8 @@ nav a:hover {
 #log-in-btn {
     display: flex;
     align-items: center;
-    height: 30px;
     margin-left: 20px;
-    font-size: 0.75em;
+    font-size: 1rem;
     font-weight: 600;
 }
 

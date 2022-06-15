@@ -37,11 +37,6 @@ nav {
     margin: auto;
 }
 
-.navbar-toggler {
-    color: var(--mediumblue);
-    background-color: var(--mediumblue);
-}
-
 
 .navbar-brand  img {
     width: 60px;

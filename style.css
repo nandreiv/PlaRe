@@ -9,6 +9,10 @@
     .lead {
         font-size: 1rem;
     }
+
+    #navbarNav  button {
+        font-size: 11px;
+    }
 }
 
 
@@ -71,6 +75,14 @@ nav a {
 
 nav a:hover {
     color: var(--mediumblue);
+}
+
+#navbarNav button {
+    min-width: 60px;
+}
+
+.navbar-toggler {
+    background-color: var(--mediumblue);
 }
 
 

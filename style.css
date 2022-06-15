@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 1200px) {
 
-    .col-xl-4 img { display: none; } 
-    .display-4 { font-size: 2.5rem; }
+    .display-4 {
+        font-size: 50px;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .col-xl-4 img {
+        display: none;
+    }
+
+    .display-4 {
+        font-size: 30px;
+    }
+
+    .footer ul li a {
+        font-size: 12px;
+    }
 }
 
 * {
@@ -37,8 +58,8 @@ nav {
     margin: auto;
 }
 
-
-.navbar-brand  img {
+.navbar-brand img {
+    margin-left: 50px;
     width: 60px;
     height: 60px;
 }
@@ -63,8 +84,8 @@ nav a:hover {
 }
 
 .bluebtn {
-    background: rgb(115,190,255);
-    background: linear-gradient(90deg, rgba(115,190,255,1) 0%, rgba(92,206,233,1) 100%);
+    background: rgb(115, 190, 255);
+    background: linear-gradient(90deg, rgba(115, 190, 255, 1) 0%, rgba(92, 206, 233, 1) 100%);
     color: #fff;
 }
 
@@ -78,7 +99,7 @@ nav a:hover {
 
 .jumbotron {
     width: 80%;
-    margin: 10 0 10 0;
+    margin: auto;
     padding: 10 0 10 0;
     background-color: var(--whitesmoke);
 }
@@ -106,4 +127,41 @@ nav a:hover {
 #jumbo-div img {
     max-width: 75%;
     margin: auto;
+}
+
+.footer-div {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: var(--clr);
+    align-items: flex-end;
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px 20px 50px;
+}
+
+.footer p {
+    color: var(--whitesmoke);
+    margin-right: 50px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.footer ul li {
+    margin: 0px 10px 0px 10px;
+}
+
+.footer ul li a {
+    color: var(--whitesmoke);
 }

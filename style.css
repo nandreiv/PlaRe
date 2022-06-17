@@ -73,16 +73,22 @@ body {
 
 /* Navbar Customization */
 
-.navbar {
-    background-color: #fff;
-    width: 100%;
-}
 
 nav {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: auto;
+    background-color: #fff;
 }
+
+.navbarLogo {
+    flex-grow: 0.2;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
 
 .navbar-brand img {
     margin-left: 50px;

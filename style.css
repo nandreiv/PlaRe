@@ -180,6 +180,25 @@ nav a:hover {
 /* End of Landing Page Customization */
 
 
+/* About Page Customization */
+
+.aboutTitle {
+    display: flex;
+    min-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutTitle h1 {
+    margin: auto;
+    padding-top: 4rem;
+    font-weight: 600;
+}
+
+.aboutDiv p {
+    font-weight: 500;
+}
+
 /* Footer Customization */
 
 .footer-div {

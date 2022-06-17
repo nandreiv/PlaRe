@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-@media screen and (max-width: 1200px) {
+/* Media Querries */
+
+@media screen and (max-width: 1300px) {
 
     .display-4 {
-        font-size: 50px;
+        font-size: 2.5rem;
     }
 
     .lead {
         font-size: 1rem;
     }
 
-    #navbarNav  button {
+    #navbarNav button {
         font-size: 11px;
     }
 }
@@ -18,18 +20,32 @@
 
 @media screen and (max-width: 600px) {
 
-    .col-xl-4 img {
+    div.sectionImage {
         display: none;
     }
 
+    .plain {
+        font-size: 0.9rem;
+    }
+
+    div.sectionText a {
+        font-size: 0.9rem;
+    }
+
     .display-4 {
-        font-size: 30px;
+        font-size: 1.5rem;
+    }
+
+    .footer p {
+        font-size: 0.75rem;
     }
 
     .footer ul li a {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 }
+
+/* Start CSS */
 
 * {
     margin: 0;
@@ -50,6 +66,8 @@
 body {
     background-color: var(--whitesmoke);
 }
+
+/* Navbar Customization */
 
 .navbar {
     background-color: #fff;
@@ -109,37 +127,54 @@ nav a:hover {
     font-weight: 600;
 }
 
-.jumbotron {
-    width: 80%;
+/* End of Navbar Customization */
+
+
+/* Landing Page Customization */
+
+.sectionPagesDiv {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+.sectionDiv {
+    display: flex;
+    flex-direction: row;
     margin: auto;
-    padding: 10 0 10 0;
+    min-width: 95%;
+    padding-top: 20px;
+}
+
+.sectionText {
+    flex-grow: 1;
+    flex-basis: 65%;
     background-color: var(--whitesmoke);
 }
 
-.jumbotron h1 {
-    font-weight: 500;
-}
-
-.my-4 {
-    background-color: var(--clr);
-}
-
-.jumbotron .lead {
+.sectionText .display-4 {
     font-weight: 400;
 }
 
-#jumbo-div {
+.sectionImage {
     display: flex;
-    margin: 0;
-    padding: 0;
+    flex-grow: 1;
+    flex-basis: 35%;
     justify-content: center;
     align-items: center;
 }
 
-#jumbo-div img {
-    max-width: 75%;
+.sectionImage img {
+    display: block;
+    max-width: 100%;
+    max-height: 350px;
     margin: auto;
 }
+
+/* End of Landing Page Customization */
+
+
+/* Footer Customization */
 
 .footer-div {
     margin: 0;

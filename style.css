@@ -12,6 +12,10 @@
         font-size: 1rem;
     }
 
+    .plain {
+        font-size: 0.9rem;
+    }
+
     #navbarNav button {
         font-size: 11px;
     }

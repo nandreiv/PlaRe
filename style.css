@@ -109,10 +109,6 @@ nav a:hover {
     align-items: center;
 }
 
-#log-in-btn ion-icon {
-    margin-right: 10px;
-}
-
 .bluebtn {
     background: rgb(115, 190, 255);
     background: linear-gradient(90deg, rgba(115, 190, 255, 1) 0%, rgba(92, 206, 233, 1) 100%);

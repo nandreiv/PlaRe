@@ -149,7 +149,7 @@ nav a:hover {
     flex-direction: row;
     margin: auto;
     min-width: 95%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .sectionText {
@@ -197,6 +197,38 @@ nav a:hover {
 
 .aboutDiv p {
     font-weight: 500;
+}
+
+/* Account Registration Customization */
+
+.accountDiv {
+    min-height: 100vh;
+}
+
+.accountReg {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.regArea {
+    margin: auto;
+}
+
+.genderSelect {
+    margin: auto;
+}
+
+.genderSelect h3 {
+    line-height: 5ch;
+    margin: 0;
+    padding: 0;
+}
+
+.regArea button {
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 /* Footer Customization */
